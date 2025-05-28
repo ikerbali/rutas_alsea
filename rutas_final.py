@@ -24,7 +24,7 @@ def ruta(inicio, destino):
 
 # Cargar el CSV
 
-df_descripciones = pd.read_excel('descripciones_vacantes_embeddings.xlsx')
+df_descripciones = pd.read_excel('Excel_descripciones_final.xlsx')
 
 # Crear diccionario {puesto: descripcion}
 descripciones_puestos = dict(zip(df_descripciones["Puesto"], df_descripciones["Descripción embedding"]))
@@ -262,8 +262,7 @@ posiciones = [
     "Sub-gerente Vips",
     "Gerente de Tienda Vips",
     "Gerente de Distrito (GV2) Vips",
-    "Chef Vips",
-    "Gerente de Distrito Superior (GV1) DP"
+    "Chef Vips"
 ]
 
 opcion_entrada= st.selectbox(options=posiciones,label="Selecciona tu puesto actual")

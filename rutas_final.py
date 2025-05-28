@@ -52,8 +52,8 @@ grafo_con_pesos = {
 
     "Gerente de Tienda B DP": {
         "Gerente de Tienda A DP": [0, 0, 0],
-        "Gerente de Cocina MM": [0, 0, 0],
-        "Gerente de Servicio MM": [0, 0, 0]
+        "Gerente de Cocina Multimarca": [0, 0, 0],
+        "Gerente de Servicio Multimarca": [0, 0, 0]
     },
 
     "Gerente de Tienda A DP": {
@@ -93,8 +93,8 @@ grafo_con_pesos = {
 
     "Gerente de Tienda SB": {
         "Distrital Coach Trainee (DC1) SB": [0, 0, 0],
-        "Gerente de Cocina MM": [0, 0, 0],
-        "Gerente de Servicio MM": [0, 0, 0]
+        "Gerente de Cocina Multimarca": [0, 0, 0],
+        "Gerente de Servicio Multimarca": [0, 0, 0]
     },
 
     "Gerente de Distrito (GV1) BK": {
@@ -125,49 +125,49 @@ grafo_con_pesos = {
 
     "Distrital Coach Senior (DC3) SB": {},
 
-    "Crew MM": {
-        "Gerente en Turno MM": [0, 0, 0]
+    "Crew Multimarca": {
+        "Gerente en Turno Multimarca": [0, 0, 0]
     },
 
-    "Gerente en Turno MM": {
-        "Gerente de Servicio MM": [0, 0, 0]
+    "Gerente en Turno Multimarca": {
+        "Gerente de Servicio Multimarca": [0, 0, 0]
     },
 
-    "Gerente de Servicio MM": {
-        "Gerente de Cocina MM": [0, 0, 0],
-        "Chef MM": [0, 0, 0]
+    "Gerente de Servicio Multimarca": {
+        "Gerente de Cocina Multimarca": [0, 0, 0],
+        "Chef Multimarca": [0, 0, 0]
     },
 
-    "Gerente de Cocina MM": {
-        "Gerente General MM": [0, 0, 0]
+    "Gerente de Cocina Multimarca": {
+        "Gerente General Multimarca": [0, 0, 0]
     },
 
-    "Chef MM": {},
+    "Chef Multimarca": {},
 
-    "Gerente General MM": {
+    "Gerente General Multimarca": {
         "Gerente de Distrito (GV1) BK": [0, 0, 0],
         "Distrital Coach (DC2) SB": [0, 0, 0],
         "Gerente de Distrito (GV2) Vips": [0, 0, 0],
-        "Distrital Coach (DC2) MM": [0, 0, 0]
+        "Distrital Coach (DC2) Multimarca": [0, 0, 0]
     },
 
-    "Gerente de Divisional de operaciones (GV2) MM": {
-        "Distrital Coach Senior (DC3) MM": [0, 0, 0]
+    "Gerente de Divisional de operaciones (GV2) Multimarca": {
+        "Distrital Coach Senior (DC3) Multimarca": [0, 0, 0]
     },
 
-    "Distrital Coach Senior (DC3) MM ": {},
+    "Distrital Coach Senior (DC3) Multimarca ": {},
 
-    "Distrital Coach (DC2) MM": {
-        "Gerente de Divisional de operaciones (GV2) MM": [0, 0, 0]
+    "Distrital Coach (DC2) Multimarca": {
+        "Gerente de Divisional de operaciones (GV2) Multimarca": [0, 0, 0]
     },
 
     "Gerente de Divisional de operaciones (GV2) BK": {},
 
-    "Gerente de Divisional de operaciones (GV2) MM": {
-        "Distrital Coach Senior (DC3) MM": [0, 0, 0]
+    "Gerente de Divisional de operaciones (GV2) Multimarca": {
+        "Distrital Coach Senior (DC3) Multimarca": [0, 0, 0]
     },
 
-    "Distrital Coach Senior (DC3) MM": {},
+    "Distrital Coach Senior (DC3) Multimarca": {},
 
     "Crew Vips": {
         "Sub-gerente Vips": [0, 0, 0]
@@ -175,18 +175,18 @@ grafo_con_pesos = {
 
     "Sub-gerente Vips": {
         "Gerente de Tienda Vips": [0, 0, 0],
-        "Gerente en Turno MM": [0, 0, 0],
+        "Gerente en Turno Multimarca": [0, 0, 0],
         "Subgerente de Tienda SB": [0, 0, 0]
     },
 
     "Chef Vips": {
-        "Chef MM": [0, 0, 0]
+        "Chef Multimarca": [0, 0, 0]
     },
 
     "Gerente de Tienda Vips": {
         "Gerente de Distrito (GV2) Vips": [0, 0, 0],
         "Gerente de Distrito Superior (GV1) DP": [0, 0, 0],
-        "Gerente General MM": [0, 0, 0]
+        "Gerente General Multimarca": [0, 0, 0]
     },
 
     "Gerente de Distrito (GV2) Vips": {},
@@ -249,15 +249,15 @@ posiciones = [
     "Distrital Coach Senior (DC3) SB",
     "Barista SB",
     "Subgerente de Tienda SB",
-    "Crew MM",
-    "Gerente en Turno MM",
-    "Gerente de Servicio MM",
-    "Gerente de Cocina MM",
-    "Chef MM",
-    "Gerente General MM",
-    "Gerente de Divisional de operaciones (GV2) MM",
-    "Distrital Coach Senior (DC3) MM",
-    "Distrital Coach (DC2) MM",
+    "Crew Multimarca",
+    "Gerente en Turno Multimarca",
+    "Gerente de Servicio Multimarca",
+    "Gerente de Cocina Multimarca",
+    "Chef Multimarca",
+    "Gerente General Multimarca",
+    "Gerente de Divisional de operaciones (GV2) Multimarca",
+    "Distrital Coach Senior (DC3) Multimarca",
+    "Distrital Coach (DC2) Multimarca",
     "Crew Vips",
     "Sub-gerente Vips",
     "Gerente de Tienda Vips",
